@@ -10,11 +10,38 @@
             color: white;
             padding: 20px;
         }
-        a { color: #1db954; }
+        article {
+            background-color: #0615a4;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+        }
+        h1, h2 {
+            color: #ffd6de;
+        }
+        a { color: #ffb3c1; }
+
+        .imagen-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .imagen-container img {
+            width: 350px;
+            border-radius: 18px;
+            border: 3px solid #ffb3c1;
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.7);
+            transition: transform 0.4s ease;
+        }
+
+        .imagen-container img:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
-
+<article>
 <h1>🎧 Canciones fáciles para empezar</h1>
 
 <ul>
@@ -25,6 +52,6 @@
 </ul>
 
 <a href="index.html">⬅ Volver</a>
-
+</article>
 </body>
 </html>
