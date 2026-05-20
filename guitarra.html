@@ -10,11 +10,39 @@
             color: white;
             padding: 20px;
         }
+
+        article {
+            background-color: #0615a4;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+        }
+
+        h1, h2 {
+            color: #ffd6de;
+        }
+
+        a {
+            color: #ffb3c1;
+        }
+
+        .imagen-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
         a { color: #1db954; }
+        .imagen-container img {
+            width: 380px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.7);
+            transition: transform 0.4s ease;
+            border: 3px solid #ffb3c1;
+        }
     </style>
 </head>
 <body>
-
+<article>
 <h1>🎸 Partes de la guitarra</h1>
 
 <ul>
@@ -26,33 +54,11 @@
     <li>Boca</li>
     <li>Cuerdas</li>
 </ul>
-
-    <div class="imagen-container">
-    <img src="partes.jpg" alt="Imagen partes guitarra">
+<div class="imagen-container">
+    <img src="partes.jpg" alt="partes de la guitarra">
 </div>
 
-<style>
-.imagen-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
-
-.imagen-container img {
-    width: 350px;
-    border-radius: 20px;
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border: 3px solid #1db954;
-}
-
-.imagen-container img:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 15px 35px rgba(29,185,84,0.7);
-}
-</style>
 <a href="index.html">⬅ Volver</a>
-
+</article>
 </body>
 </html>
-
